@@ -4,7 +4,7 @@
         <samp>{{ persona  }}</samp>
         
     </div>
-    <router-link to="/">Volver</router-link>
+    <router-link to="/">Back</router-link>
 </template>
 
 <script setup>
