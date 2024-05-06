@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
 
-import {createRouter, createWebHashHistory } from 'vue-router'
+import {createRouter, createWebHistory } from 'vue-router'
 import Home from './components/Home.vue'
 import About from './components/About.vue'
 import Persona from './components/Persona.vue'
@@ -26,7 +26,7 @@ const routes = [
 
 const router = createRouter({
     routes,
-    history:createWebHashHistory()
+    history:createWebHistory()
 })
 
 router.beforeEach((to,from)=>{
